@@ -49,6 +49,7 @@ fn calcular_discriminante(a: f64, b:f64, c:f64) -> f64{
     let b_cuadrado = b.powi(2);
     let discriminante = b_cuadrado-4.0*a*c;
     discriminante
+    
 }
 
 fn soluciones_imaginarias(a:f64, b:f64, discriminante:f64){
